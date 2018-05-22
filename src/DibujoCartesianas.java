@@ -5,7 +5,10 @@ import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 import java.lang.reflect.Method;
-
+/*
+ * @author Carmelo Ricarte
+ * @version 3.0
+ */
 public class DibujoCartesianas {
 
     //Método a modificar. x e y están entre 0 y 1.
