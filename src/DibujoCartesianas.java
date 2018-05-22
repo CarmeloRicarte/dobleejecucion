@@ -10,12 +10,12 @@ public class DibujoCartesianas {
 
     //Método a modificar. x e y están entre 0 y 1.
     //El origen (0,0) está en la esquina inferior izquierda
-    
+
 
     private static Color devuelveColor(double x, double y) {
-        if (x < 0.23) {
-            return new Color(5, 11, 198);
-        }
+        if (x > 0.40 && y < 0.5) return new Color(198, 16, 85);
+        if (x > 0.40 && y > 0.49) return new Color(71, 161, 198);
+
 
         if (y < 0.22 && y > 0.11) {
             return new Color(198, 11, 30);
